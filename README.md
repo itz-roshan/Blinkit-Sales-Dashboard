@@ -16,10 +16,6 @@
 
 <br/>
 
-![Status](https://img.shields.io/badge/Status-✅%20Complete-brightgreen?style=flat-square)
-![Made by](https://img.shields.io/badge/Made%20by-@itz-roshan-F9C418?style=flat-square)
-![Stars](https://img.shields.io/github/stars/itz-roshan/Blinkit-Sales-Dashboard?style=flat-square&color=F9C418)
-
 </div>
 
 ---
@@ -41,7 +37,7 @@ This project covers the **complete data analytics pipeline** on Blinkit's grocer
 ## 🖼️ Dashboard Preview
 
 <div align="center">
-  <img src="assets/dashboard.png" width="750" style="border-radius:12px; border: 2px solid #F9C418;"/>
+  <img src="assets/Blinkit-Dashboard.png" width="750" style="border-radius:12px; border: 2px solid #F9C418;"/>
   <br/>
   <sub>📍 Power BI Interactive Dashboard — Blinkit Grocery Sales</sub>
 </div>
