@@ -1,170 +1,163 @@
-<h1 align="center">
-  <img src="https://img.shields.io/badge/blinkit-F9C418?style=for-the-badge&logoColor=black" alt="blinkit"/>
-  <br/>
-  Blinkit Grocery Sales — End-to-End Data Analysis
-</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-336791?style=flat-square&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Made_by-@roshan.code-F9C418?style=flat-square"/>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=F9C418&height=200&section=header&text=🛒%20Blinkit%20Sales%20Analysis&fontSize=40&fontColor=1a1a1a&fontAlignY=38&desc=End-to-End%20Data%20Analytics%20Project&descAlignY=58&descSize=18&descColor=1a1a1a" />
 
-<p align="center">
-  <b>Data Cleaning → SQL Insights → Power BI Dashboard</b><br/>
-  A complete data analysis project on Blinkit's grocery sales dataset
-</p>
+<br/>
 
----
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F9C418&center=true&vCenter=true&width=600&lines=🐼+Pandas+%7C+🗄️+SQL+%7C+📊+Power+BI;Data+Cleaning+→+Insights+→+Dashboard;Real+World+Business+Analytics+Project;by+%40roshan.code+✨" />
 
-## 📊 Dashboard Preview
+<br/><br/>
 
-![Blinkit Sales Dashboard](assets/dashboard.png)
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-> *Interactive Power BI dashboard showing sales by outlet type, item category, fat content, tier, and outlet establishment year.*
+<br/>
+
+![Status](https://img.shields.io/badge/Status-✅%20Complete-brightgreen?style=flat-square)
+![Made by](https://img.shields.io/badge/Made%20by-@itz-roshan-F9C418?style=flat-square)
+![Stars](https://img.shields.io/github/stars/itz-roshan/Blinkit-Sales-Dashboard?style=flat-square&color=F9C418)
+
+</div>
 
 ---
 
-## 📌 About the Project
+## 🌟 Project Overview
 
-This project performs a **complete data analysis lifecycle** on Blinkit's grocery sales dataset:
+> *Transforming raw grocery data into powerful business decisions — one query at a time.*
 
-- 🐼 **Pandas** — Raw data cleaning, null value handling, label standardization
-- 🗄️ **SQL (MySQL)** — Business insights and aggregation queries
-- 📊 **Power BI** — Interactive visual dashboard with filters
+This project covers the **complete data analytics pipeline** on Blinkit's grocery sales dataset:
 
-The dataset covers outlet types, item categories, fat content, tier-wise sales, establishment year trends, and customer ratings.
-
----
-
-## ⚙️ Project Workflow
-
-```
-📦 Raw Data  →  🐼 Pandas Cleaning  →  🗄️ SQL Insights  →  📊 Power BI Dashboard
-```
-
----
-
-## 📈 Key Metrics from Dashboard
-
-| Metric | Value |
-|---|---|
-| 💰 Total Sales | $1.20M |
-| 📦 Total Items | 8,523 |
-| 💵 Average Sale | $141 |
-| ⭐ Average Rating | 3.9 / 5 |
-
----
-
-## 🔍 Business Insights (via SQL)
-
-| # | Question | Finding |
+| Stage | Tool | What was done |
 |---|---|---|
-| 1 | 🏪 Top outlet by revenue | Supermarket Type 1 — **$787.55K** |
-| 2 | 📍 Best performing tier | Tier 3 — **472.13K** sales |
-| 3 | 🛍️ Most sold item category | Fruits & Snacks — **$0.18M each** |
-| 4 | 📅 Peak outlet year | 2018 — **$205K** revenue |
-| 5 | 🥗 Fat content split | Low Fat **$776K** vs Regular **$425K** |
-| 6 | 👁️ Best item visibility score | Grocery Store — **0.10** |
+| 🧹 Data Cleaning | Python + Pandas | Null handling, formatting, deduplication |
+| 🧠 Insight Extraction | SQL (MySQL) | Business queries, aggregations, trends |
+| 📊 Visualization | Power BI | Interactive multi-page dashboard |
 
 ---
 
-## 🧹 Pandas Cleaning Steps
+## 🖼️ Dashboard Preview
 
-- ✅ Loaded raw CSV and inspected shape & datatypes
-- ✅ Filled null values in `Item_Weight` (mean) and `Outlet_Size` (mode)
-- ✅ Standardized `Item_Fat_Content` labels (`LF`, `low fat` → `Low Fat`, `reg` → `Regular`)
-- ✅ Fixed incorrect datatypes (`Outlet_Establishment_Year` → int)
-- ✅ Removed duplicate rows
-- ✅ Reset index after cleaning
+<div align="center">
+  <img src="assets/dashboard.png" width="750" style="border-radius:12px; border: 2px solid #F9C418;"/>
+  <br/>
+  <sub>📍 Power BI Interactive Dashboard — Blinkit Grocery Sales</sub>
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+## 📊 Key Numbers at a Glance
 
-| Tool | Purpose |
-|---|---|
-| 🐍 Python | Core programming language |
-| 🐼 Pandas | Data cleaning & transformation |
-| 🗄️ MySQL | SQL queries & business insights |
-| 📊 Power BI | Interactive dashboard |
-| 📓 Jupyter Notebook | Analysis notebooks |
-| 📉 Matplotlib | EDA visualizations |
+<div align="center">
+
+| 💰 Total Sales | 📦 Total Items | 💵 Avg Sale Value | ⭐ Avg Rating |
+|:---:|:---:|:---:|:---:|
+| **$1.20M** | **8,523** | **$141** | **3.9 / 5** |
+
+</div>
+
+---
+
+## 🔍 Top Business Insights (via SQL)
+
+```
+🏪  Supermarket Type 1   →   Highest Revenue    →   $787.55K
+📍  Tier 3 Outlets       →   Best Performing    →   472.13K in Sales
+🛍️  Fruits & Snacks      →   Top Categories     →   $0.18M each
+📅  Year 2018            →   Peak Revenue Year  →   $205K
+🥗  Low Fat Items        →   Dominate Sales     →   $776K vs $425K (Regular)
+👁️  Grocery Stores       →   Best Visibility    →   Score: 0.10
+```
+
+---
+
+## 🔄 Workflow
+
+```mermaid
+flowchart LR
+    A[📦 Raw CSV Data] --> B[🐼 Pandas Cleaning]
+    B --> C[🗄️ SQL Analysis]
+    C --> D[📊 Power BI Dashboard]
+    style A fill:#1a1a1a,color:#F9C418,stroke:#F9C418
+    style B fill:#150458,color:#white,stroke:#F9C418
+    style C fill:#00000F,color:#white,stroke:#F9C418
+    style D fill:#F2C811,color:#1a1a1a,stroke:#F9C418
+```
+
+---
+
+## 🧹 Data Cleaning Steps (Pandas)
+
+- ✅ Loaded raw CSV — inspected shape, dtypes, and null counts
+- ✅ Filled `Item_Weight` nulls with **column mean**
+- ✅ Filled `Outlet_Size` nulls with **mode per outlet type**
+- ✅ Standardized fat labels → `LF / low fat` → `Low Fat` | `reg` → `Regular`
+- ✅ Converted `Outlet_Establishment_Year` to integer
+- ✅ Dropped duplicate rows & reset index
 
 ---
 
 ## 📁 Project Structure
 
 ```
-📦 blinkit-analysis/
+📦 Blinkit-Sales-Dashboard/
+│
 ├── 📂 data/
-│   ├── blinkit_raw.csv           ← original dataset
-│   └── blinkit_cleaned.csv       ← after Pandas cleaning
-├── 📂 notebooks/
-│   ├── 01_data_cleaning.ipynb    ← null handling, formatting
-│   └── 02_eda_analysis.ipynb     ← exploratory analysis
+│   ├── 📄 blinkit_raw.csv              ← Original dataset
+│   └── 📄 blinkit_cleaned.csv          ← After Pandas cleaning
 ├── 📂 sql/
-│   └── insights_queries.sql      ← all business queries
+│   └── 📄 insights_queries.sql         ← All business queries
+│
 ├── 📂 assets/
-│   └── dashboard.png             ← dashboard screenshot
+│   └── 🖼️  dashboard.png               ← Dashboard screenshot
+│
 ├── 📂 dashboard/
-│   └── blinkit_dashboard.pbix    ← Power BI file
-├── README.md
-└── requirements.txt
+│   └── 📊 blinkit_dashboard.pbix       ← Power BI file
+│
+├── 📄 requirements.txt
+└── 📜 README.md
 ```
 
 ---
 
-## 🚀 How to Run
+## 💡 What I Learned
 
-**1. Clone the repository**
-```bash
-git clone https://github.com/itz-roshan/Blinkit-Sales-Dashboard.git
-cd Blinkit-Sales-Dashboard
-```
-
-**2. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**3. Run the cleaning notebook**
-```bash
-jupyter notebook notebooks/01_data_cleaning.ipynb
-```
-
-**4. Load SQL queries**
-> Open `sql/insights_queries.sql` in MySQL Workbench or any SQL client
-
-**5. Open Power BI Dashboard**
-> Open `dashboard/blinkit_dashboard.pbix` in Power BI Desktop
+- 🔧 **Data cleaning** is 70% of the actual analytics work
+- 🧠 **SQL** uncovers insights that raw data never shows directly
+- 🎨 **Visualization** is what turns analysis into decisions
+- 🔁 **End-to-end workflow** is the real industry skill
 
 ---
 
-## 🙋 Connect with Me
+## 🚀 Future Improvements
 
-<p align="center">
-  <a href="https://instagram.com/roshan.code">
-    <img src="https://img.shields.io/badge/Instagram-@roshan.code-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/itz-roshan">
-    <img src="https://img.shields.io/badge/LinkedIn-itz--roshan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/itz-roshan">
-    <img src="https://img.shields.io/badge/GitHub-itz--roshan-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+- [ ] 🤖 Add ML-based demand forecasting
+- [ ] ⚡ Build a real-time dashboard
+- [ ] 📐 Advanced DAX calculated measures
+- [ ] 🏙️ City & region-level drill-down analysis
 
 ---
 
-<p align="center">
-  Dataset from <a href="https://www.kaggle.com/">Kaggle</a> &nbsp;•&nbsp;
-  Made with ❤️ by <b>@roshan.code</b>
-  <br/><br/>
-  ⭐ <b>If this project helped you, please star the repo!</b>
-</p>
+## 🤝 Connect with Me
+
+<div align="center">
+
+[![Instagram](https://img.shields.io/badge/Instagram-@roshan.code-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/itz_roshansingh)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-itz--roshan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/itz-roshan)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-itz--roshan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/itz-roshan)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=F9C418&height=120&section=footer&text=⭐%20Star%20this%20repo%20if%20it%20helped%20you!&fontSize=18&fontColor=1a1a1a&fontAlignY=65" />
+
+*Dataset from [Kaggle](https://www.kaggle.com/) • Made with ❤️ by [@roshan](https://instagram.com/itz_roshansingh)*
+
+</div>
